@@ -1,0 +1,26 @@
+{
+  "name": "irc",
+  "version": "1.0.0",
+  "description": "IRC server for EPITECH project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Kévin RAKOTONIAINA & Chadi OLABI",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.33.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.3",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
